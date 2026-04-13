@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-"""
-=============================================================
-  Sentiment Analysis on Tweets about Claude 4 (Anthropic)
-  Course  : Data Analytics and Visualisation (CSC601)
-  Module  : 4 — Text Analytics
-  College : Rizvi College of Engineering, Mumbai
-  Class   : TE AI&DS (2025-26) | Semester VI
-=============================================================
-"""
 
 import os
 import re
@@ -26,9 +16,9 @@ from sklearn.metrics import (
     classification_report
 )
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 1 — LOAD DATASET
-# ─────────────────────────────────────────────────────────
+
 DATA_PATH = os.path.join("data", "tweets_dataset.csv")
 df = pd.read_csv(DATA_PATH)
 
@@ -38,9 +28,9 @@ print("=" * 62)
 print(f"\nDataset loaded: {len(df)} tweets")
 print(f"\nSentiment Distribution:\n{df['sentiment'].value_counts().to_string()}")
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 2 — PREPROCESSING
-# ─────────────────────────────────────────────────────────
+
 def preprocess_tweet(text):
     """
     Cleans raw tweet text for NLP processing.
@@ -63,16 +53,16 @@ def preprocess_tweet(text):
 df["clean_tweet"] = df["tweet"].apply(preprocess_tweet)
 print("\nPreprocessing complete.")
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 3 — LABEL ENCODING
-# ─────────────────────────────────────────────────────────
+
 label_map    = {"positive": 2, "neutral": 1, "negative": 0}
 label_decode = {v: k for k, v in label_map.items()}
 df["label"]  = df["sentiment"].map(label_map)
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 4 — TRAIN / TEST SPLIT  (80 / 20)
-# ─────────────────────────────────────────────────────────
+
 X = df["clean_tweet"]
 y = df["label"]
 
@@ -87,9 +77,9 @@ print(f"\nTrain/Test Split:")
 print(f"  Training set : {len(X_train)} tweets (80%)")
 print(f"  Testing set  : {len(X_test)} tweets  (20%)")
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 5 — TF-IDF VECTORIZATION
-# ─────────────────────────────────────────────────────────
+
 vectorizer = TfidfVectorizer(
     max_features=500,
     ngram_range=(1, 2),     # Unigrams + Bigrams
@@ -104,9 +94,9 @@ print(f"\nTF-IDF vectorization complete.")
 print(f"  Vocabulary size : {len(vectorizer.vocabulary_)} features")
 print(f"  N-gram range    : (1, 2)")
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 6 — TRAIN CLASSIFIERS & EVALUATE
-# ─────────────────────────────────────────────────────────
+
 classifiers = {
     "Naive Bayes"        : MultinomialNB(alpha=0.5),
     "SVM (LinearSVC)"    : LinearSVC(C=0.5, max_iter=2000, random_state=42),
@@ -143,9 +133,9 @@ for name, clf in classifiers.items():
                                  target_names=target_names,
                                  zero_division=0))
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 7 — COMPARISON SUMMARY
-# ─────────────────────────────────────────────────────────
+
 print("=" * 62)
 print("  CLASSIFIER COMPARISON SUMMARY")
 print("=" * 62)
@@ -158,9 +148,9 @@ best = max(results, key=lambda x: results[x]["f1"])
 print(f"\n  Best Classifier : {best}")
 print(f"  Best F1-Score   : {results[best]['f1']:.4f}")
 
-# ─────────────────────────────────────────────────────────
+
 # STEP 8 — SAMPLE PREDICTIONS ON TEST SET
-# ─────────────────────────────────────────────────────────
+
 print(f"\n{'─' * 62}")
 print(f"  SAMPLE PREDICTIONS — {best}")
 print(f"{'─' * 62}")
@@ -181,12 +171,3 @@ print(f"\n  Test Accuracy : {accuracy:.1f}%  ({int(test_df['correct'].sum())}/20
 print("\n" + "=" * 62)
 print("  DONE")
 print("=" * 62)
-=======
-import pandas as pd
-
-def main():
-    print("Starting Assignment Template")
-
-if __name__ == "__main__":
-    main()
->>>>>>> 9b90ebadd80c9364e1308599379c1ce1dab15e05
