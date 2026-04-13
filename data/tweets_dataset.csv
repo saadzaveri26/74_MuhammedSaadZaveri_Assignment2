@@ -1,0 +1,101 @@
+id,tweet,sentiment
+1,"Claude 4 Opus just passed every benchmark I threw at it. Anthropic has genuinely built something extraordinary here.",positive
+2,"Tried Claude 4 for the first time today and I'm speechless. The reasoning depth is unlike anything I've seen from any AI.",positive
+3,"Claude 4 Sonnet is my new daily driver. It understands context across an entire codebase without losing track. Insane.",positive
+4,"Anthropic's Claude 4 feels like talking to someone who actually read every book. The nuance in responses is remarkable.",positive
+5,"Claude 4 Opus wrote a research paper outline that my advisor said looked publishable. I'm still processing that.",positive
+6,"The way Claude 4 handles ambiguous prompts is genius. It asks exactly the right clarifying question instead of guessing wrong.",positive
+7,"Claude 4 just refactored 3000 lines of legacy Python into clean modern code. Saved my team literally two weeks of work.",positive
+8,"Switched from GPT-4o to Claude 4 and I'm not going back. The writing quality is on a completely different level.",positive
+9,"Claude 4 Haiku is shockingly capable for its size and price. Anthropic nailed the speed-intelligence tradeoff.",positive
+10,"Anthropic releasing Claude 4 with genuine long-context memory is the upgrade I've been waiting for since 2023.",positive
+11,"Claude 4 constitutional AI approach actually shows in its outputs. It is helpful AND honest. Rare combination.",positive
+12,"I asked Claude 4 Opus to critique my startup pitch deck. The feedback was sharper than most VCs I have spoken to.",positive
+13,"Claude 4 understands Indian legal documents better than I expected. The localization is genuinely impressive.",positive
+14,"Claude 4 is the first AI that makes me feel like I am thinking WITH it not just prompting at it.",positive
+15,"Anthropic safety-first approach with Claude 4 gives me confidence to use it in sensitive workflows. Trust matters.",positive
+16,"Claude 4 Sonnet is now powering our entire content pipeline. Quality went up costs went down. Dream scenario.",positive
+17,"The extended thinking mode in Claude 4 is phenomenal. Watching it reason step by step before answering is genuinely educational.",positive
+18,"Claude 4 caught a logical flaw in my dissertation argument that three professors missed. Incredible analytical depth.",positive
+19,"Claude 4 Opus for creative writing is sublime. It maintains narrative voice and character consistency across chapters.",positive
+20,"Anthropic just proved that you do not need to sacrifice safety for capability. Claude 4 is the clearest evidence yet.",positive
+21,"Claude 4 is impressive but Anthropic pricing is still too steep for indie developers and small teams.",negative
+22,"Claude 4 Opus hallucinated a court case citation with full confidence. Safety-focused or not this is still a real problem.",negative
+23,"Disappointed that Claude 4 still refuses perfectly legitimate creative writing requests. The over-censorship is exhausting.",negative
+24,"Claude 4 is great at reasoning but completely loses track in conversations longer than 30 turns. Memory is inconsistent.",negative
+25,"Anthropic API rate limits are killing my production app. Claude 4 is brilliant but inaccessible at scale.",negative
+26,"Claude 4 is too cautious. I asked it to write a villain dialogue and it added three disclaimers. Completely broke immersion.",negative
+27,"Claude 4 sometimes gives answers that are politically cautious to the point of being useless. Where is the directness.",negative
+28,"I compared Claude 4 vs GPT-4o side by side and Claude still struggles with structured data extraction tasks.",negative
+29,"Anthropic keeps talking about AI safety but Claude 4 still leaks prompt structures if you push it the right way.",negative
+30,"Claude 4 Haiku is too watered down. The quality drop from Sonnet is huge for anything requiring real reasoning.",negative
+31,"Claude 4 refusal to engage with hypotheticals makes it useless for philosophy ethics research and academic debate.",negative
+32,"The Claude 4 API documentation is genuinely confusing. Anthropic needs better developer experience investment.",negative
+33,"Claude 4 Opus is slow. Beautiful outputs yes but I am not waiting 45 seconds for every response in production.",negative
+34,"Anthropic releasing Claude 4 without a proper desktop app first was a weird choice. Product strategy feels off.",negative
+35,"Claude 4 still does not support real-time web access natively. In 2025 this feels like a serious gap.",negative
+36,"Claude 4 struggles with code in niche frameworks. Asked about a Rust async edge case and got a confidently wrong answer.",negative
+37,"Anthropic positions Claude 4 as safer but will not publish full red team results. Transparency is selective at best.",negative
+38,"Claude 4 sometimes formats responses beautifully but the actual substance is thin. Style over depth.",negative
+39,"I tested Claude 4 math reasoning with competition problems. It fails on anything requiring true novel insight.",negative
+40,"Claude 4 is amazing for Western English content but Hindi and Marathi support is still underwhelming for Indian users.",negative
+41,"Anthropic officially launched Claude 4 with three tiers Haiku Sonnet and Opus.",neutral
+42,"Claude 4 Opus is positioned as Anthropic most capable model to date targeting enterprise and research use cases.",neutral
+43,"The Claude 4 model family is accessible through the Claude.ai interface and the Anthropic API.",neutral
+44,"Anthropic reports Claude 4 outperforms previous versions on the MMLU and HumanEval benchmarks.",neutral
+45,"Claude 4 supports a context window of up to 200000 tokens depending on the tier selected.",neutral
+46,"Anthropic Claude 4 release includes an extended thinking feature for complex multi-step reasoning tasks.",neutral
+47,"Claude 4 Sonnet is priced between Haiku and Opus targeting professional productivity use cases.",neutral
+48,"The Claude 4 API supports tool use structured outputs and multi-turn conversation management.",neutral
+49,"Anthropic states that Claude 4 was trained using their updated Constitutional AI framework.",neutral
+50,"Claude 4 is currently being evaluated by enterprises in finance legal and healthcare sectors.",neutral
+51,"Several AI benchmarking organisations have begun publishing Claude 4 vs GPT-4o comparison results.",neutral
+52,"Anthropic released a model card and safety report accompanying the Claude 4 launch.",neutral
+53,"Claude 4 Haiku is optimized for low-latency cost-sensitive applications requiring fast inference.",neutral
+54,"Developer communities on Reddit and Discord are actively sharing Claude 4 prompting strategies.",neutral
+55,"Claude 4 is being compared to Gemini Ultra and Meta Llama 4 in ongoing third-party evaluations.",neutral
+56,"Anthropic research team published a technical paper alongside the Claude 4 release.",neutral
+57,"Claude 4 extended thinking mode allows the model to reason internally before producing a final response.",neutral
+58,"Claude 4 availability varies by region and is subject to Anthropic usage policies.",neutral
+59,"Industry analysts are tracking adoption rates of Claude 4 across Anthropic enterprise customer base.",neutral
+60,"Claude 4 API pricing follows a per-token model with details published on Anthropic pricing page.",neutral
+61,"I am currently migrating our LLM stack from Claude 3.5 to Claude 4. Testing phase so far.",neutral
+62,"Our team is running A/B tests comparing Claude 4 Sonnet and GPT-4o for our summarization pipeline.",neutral
+63,"Just read Anthropic model card for Claude 4. Interesting approach to constitutional AI documented.",neutral
+64,"Evaluating Claude 4 for our EdTech platform. Results look promising but we need more testing.",neutral
+65,"Claude 4 is one of three frontier models our research team is benchmarking this quarter.",neutral
+66,"A few colleagues attended an Anthropic demo of Claude 4 last week. They found it thorough.",neutral
+67,"Claude 4 was mentioned in several AI newsletters this week as a significant capability milestone.",neutral
+68,"Our startup is deciding between Claude 4 Sonnet and Gemini 2.0 for our next product feature.",neutral
+69,"Claude 4 documentation has been updated on Anthropic developer portal with new integration guides.",neutral
+70,"Claude 4 is being discussed at AI conferences as a reference point for constitutional AI progress.",neutral
+71,"Claude 4 helped me prep for my system design interview in one afternoon. Got the job offer.",positive
+72,"Claude 4 Sonnet is the best writing partner I have ever had. My essays have never been sharper.",positive
+73,"Using Claude 4 to learn Rust from scratch. Its explanations are patient layered and genuinely fun.",positive
+74,"Claude 4 translated a complex Japanese patent filing perfectly. Legal nuance and all. Remarkable work.",positive
+75,"My anxiety around writing has completely changed since using Claude 4. It collaborates rather than dictates.",positive
+76,"Claude 4 Opus analyzed my investment portfolio and flagged risks my advisor had not mentioned. Very valuable.",positive
+77,"Claude 4 generated a full business proposal for my freelance agency. Client loved it and I landed the contract.",positive
+78,"The empathy in Claude 4 responses when I discussed a difficult personal situation felt genuinely supportive.",positive
+79,"Claude 4 is helping my grandmother write her memoirs. It is patient detailed and kind with her prompts.",positive
+80,"Anthropic extended thinking in Claude 4 is the most transparent AI reasoning I have ever seen. I love it.",positive
+81,"Claude 4 is smart but Anthropic obsession with caution makes it annoying for creative professionals daily.",negative
+82,"Claude 4 Opus has a strange inconsistency. Brilliant one session and mediocre the next. Hard to rely on.",negative
+83,"Claude 4 extended thinking mode burns through API tokens fast. The cost per task ratio is not practical.",negative
+84,"Anthropic keeps saying Claude 4 is aligned but will not say aligned to whose values exactly. Too vague.",negative
+85,"Claude 4 is not good at following strict output formats. It adds unwanted conversational filler constantly.",negative
+86,"Claude 4 failed a basic multi-hop reasoning task I designed. The reasoning chain broke completely halfway.",negative
+87,"Anthropic waitlist for Claude 4 enterprise tier is way too long. We are losing business opportunities here.",negative
+88,"Claude 4 refuses to write morally complex characters without sanitizing them. It ruins dark literary fiction.",negative
+89,"Claude 4 gave me three different answers to the same factual question in one conversation. Very unreliable.",negative
+90,"The Claude 4 API has no streaming support for extended thinking outputs. Major developer experience gap.",negative
+91,"Claude 4 Sonnet is now integrated into several third-party productivity tools via the Anthropic API.",neutral
+92,"Anthropic partnered with educational institutions to study Claude 4 impact on student learning outcomes.",neutral
+93,"Claude 4 supports function calling and JSON mode for structured application development workflows.",neutral
+94,"Researchers are studying Claude 4 performance on multilingual reasoning and translation tasks globally.",neutral
+95,"Claude 4 is subject to Anthropic acceptable use policy which outlines all prohibited use cases clearly.",neutral
+96,"Several open-source projects are building evaluation frameworks specifically designed for Claude 4.",neutral
+97,"Anthropic disclosed Claude 4 training compute and data sourcing practices in an accompanying technical report.",neutral
+98,"Claude 4 is being tested for integration into customer service platforms by multiple Fortune 500 companies.",neutral
+99,"Anthropic safety team conducted extensive red-teaming of Claude 4 before its public release.",neutral
+100,"Claude 4 release has prompted updated AI usage policies at several Indian universities and colleges.",neutral
