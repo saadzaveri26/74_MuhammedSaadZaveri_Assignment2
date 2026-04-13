@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 pandas
 numpy
 scikit-learn
 matplotlib
 notebook
+=======
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+jupyter
+>>>>>>> 9b90ebadd80c9364e1308599379c1ce1dab15e05

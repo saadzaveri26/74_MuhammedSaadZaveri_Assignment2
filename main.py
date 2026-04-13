@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 =============================================================
   Sentiment Analysis on Tweets about Claude 4 (Anthropic)
@@ -180,3 +181,12 @@ print(f"\n  Test Accuracy : {accuracy:.1f}%  ({int(test_df['correct'].sum())}/20
 print("\n" + "=" * 62)
 print("  DONE")
 print("=" * 62)
+=======
+import pandas as pd
+
+def main():
+    print("Starting Assignment Template")
+
+if __name__ == "__main__":
+    main()
+>>>>>>> 9b90ebadd80c9364e1308599379c1ce1dab15e05

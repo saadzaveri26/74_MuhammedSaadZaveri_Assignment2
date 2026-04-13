@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sentiment Analysis on Claude 4 (Anthropic) Tweets
 
 **Course:** Data Analytics and Visualisation (CSC601)  
@@ -249,3 +250,41 @@ notebook
 3. Scikit-learn Documentation — https://scikit-learn.org/stable/
 4. Anthropic Claude 4 — https://www.anthropic.com
 5. Bird, S., Klein, E., & Loper, E. (2009). *Natural Language Processing with Python*. O'Reilly Media.
+=======
+#  Assignment Title
+
+## (1) Problem Statement
+Describe the problem.
+
+## (2) Objective
+- Define the goal.
+
+## (3) Dataset
+- Source:
+- Features:
+- Size:
+
+## (4) Methodology
+1. Data Preprocessing  
+2. EDA  
+3. Model Building  
+4. Evaluation  
+
+## (5) Results
+- Metrics and insights
+
+## (6) How to Run
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## (7) Conclusion
+Summarize findings.
+
+## (8) Student's details
+- Name:
+- Roll No:
+- UIN:
+- YEAR: TE-AIDS
+>>>>>>> 9b90ebadd80c9364e1308599379c1ce1dab15e05
