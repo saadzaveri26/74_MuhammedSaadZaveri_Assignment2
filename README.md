@@ -1,14 +1,4 @@
-<<<<<<< HEAD
 # Sentiment Analysis on Claude 4 (Anthropic) Tweets
-
-**Course:** Data Analytics and Visualisation (CSC601)  
-**Module:** 4 — Text Analytics  
-**College:** Rizvi College of Engineering, Mumbai  
-**Department:** Artificial Intelligence & Data Science  
-**Class:** TE AI&DS (2025-26) | Semester VI  
-**Submission Date:** 13/04/2026  
-
----
 
 ## (1) Problem Statement
 
@@ -190,7 +180,7 @@ for name, clf in classifiers.items():
 | SVM (LinearSVC) | **0.5286** | **0.5500** | 0.4909 |
 | Logistic Regression | 0.1684 | 0.4000 | 0.2370 |
 
-### 🏆 Best Classifier: Naïve Bayes (F1 = 0.5000)
+### Best Classifier: Naïve Bayes (F1 = 0.5000)
 
 **Naïve Bayes achieves the highest weighted F1-score** of 0.50 with 55% test accuracy, making it the best classifier for this dataset.
 
@@ -241,50 +231,10 @@ matplotlib
 notebook
 ```
 
----
 
-## (13) References
-
-1. Manning, C., & Schütze, H. (1999). *Foundations of Statistical Natural Language Processing*. MIT Press.
-2. Pang, B., & Lee, L. (2008). Opinion mining and sentiment analysis. *Foundations and Trends in IR*, 2(1–2), 1–135.
-3. Scikit-learn Documentation — https://scikit-learn.org/stable/
-4. Anthropic Claude 4 — https://www.anthropic.com
-5. Bird, S., Klein, E., & Loper, E. (2009). *Natural Language Processing with Python*. O'Reilly Media.
-=======
-#  Assignment Title
-
-## (1) Problem Statement
-Describe the problem.
-
-## (2) Objective
-- Define the goal.
-
-## (3) Dataset
-- Source:
-- Features:
-- Size:
-
-## (4) Methodology
-1. Data Preprocessing  
-2. EDA  
-3. Model Building  
-4. Evaluation  
-
-## (5) Results
-- Metrics and insights
-
-## (6) How to Run
-```bash
-pip install -r requirements.txt
-python main.py
-```
-
-## (7) Conclusion
-Summarize findings.
-
-## (8) Student's details
-- Name:
-- Roll No:
-- UIN:
+## (13) Student's details
+- Name: Zaveri Muhammed Saad
+- Roll No: 74
+- UIN: 231A021
 - YEAR: TE-AIDS
->>>>>>> 9b90ebadd80c9364e1308599379c1ce1dab15e05
+
